@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>УлыбкаПро – Стоматологическая клиника в Нижнем Новгороде</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="container header-flex">
+        <div class="logo">
+            <h1>УлыбкаПро</h1>
+            <p>Стоматология с заботой о вас</p>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#doctors">Врачи</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+        <button class="btn-header" id="openModalBtn">Записаться онлайн</button>
+    </div>
+</header>
+
+<main>
+    <!-- Герой -->
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <h1>Ваша улыбка — наша забота</h1>
+                <p>Современное оборудование, опытные врачи и индивидуальный подход. Вернём здоровье и красоту вашим зубам без боли и страха.</p>
+                <button class="btn-primary openModalBtn2">Записаться на осмотр</button>
+            </div>
+            <div class="hero-img">
+                <img src="E:\kursac\1_cabinet.jpg" alt="Стоматологическая клиника" style="width: 100%; max-width: 400px; border-radius: 20px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Преимущества -->
+    <div class="container">
+        <div class="advantages">
+            <div class="adv-card"><i class="fas fa-shield-alt"></i><h3>Стерильность</h3><p>Полная безопасность и одноразовые инструменты</p></div>
+            <div class="adv-card"><i class="fas fa-microscope"></i><h3>Современное оборудование</h3><p>Микроскопы, 3D-томография</p></div>
+            <div class="adv-card"><i class="fas fa-hand-holding-usd"></i><h3>Рассрочка 0%</h3><p>Лечение без переплат</p></div>
+            <div class="adv-card"><i class="fas fa-clock"></i><h3>Удобная запись</h3><p>Онлайн 24/7, работаем с 9 до 21</p></div>
+        </div>
+    </div>
+
+    <!-- Услуги -->
+    <section id="services">
+        <div class="container">
+            <h2 class="section-title">Наши услуги</h2>
+            <p class="section-subtitle">Прозрачные цены и полный спектр стоматологических услуг</p>
+            <div class="services-grid">
+                <div class="service-card"><h3>Лечение кариеса</h3><div class="price">от 3 500 ₽</div><p>Эстетичная реставрация, качественные материалы.</p></div>
+                <div class="service-card"><h3>Профессиональная чистка</h3><div class="price">4 200 ₽</div><p>AirFlow, ультразвук, снятие налёта и камней.</p></div>
+                <div class="service-card"><h3>Имплантация</h3><div class="price">от 35 000 ₽</div><p>Установка имплантов под ключ, гарантия.</p></div>
+                <div class="service-card"><h3>Отбеливание</h3><div class="price">12 000 ₽</div><p>Безопасное отбеливание ZOOM или каппы.</p></div>
+                <div class="service-card"><h3>Коронки и виниры</h3><div class="price">от 15 000 ₽</div><p>Керамика, цирконий, эстетика.</p></div>
+                <div class="service-card"><h3>Ортодонтия</h3><div class="price">от 25 000 ₽</div><p>Брекеты, элайнеры, исправление прикуса.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Врачи -->
+    <section id="doctors" style="background-color: #f1f7f2;">
+        <div class="container">
+            <h2 class="section-title">Наши врачи</h2>
+            <p class="section-subtitle">Высококвалифицированные специалисты с опытом от 8 лет</p>
+            <div class="doctors-grid">
+                <div class="doctor-card">
+                    <div class="doctor-img">
+                        <img src="E:\kursac\3.jpg" alt="Иванова Анна Петровна" style="width: 100%; height: 150px; object-fit: cover; border-radius: 20px 20px 0 0;">
+                    </div>
+                    <h3>Иванова Анна Петровна</h3>
+                    <div class="doctor-spec">Главный врач, терапевт</div>
+                    <div class="doctor-exp">Стаж 12 лет</div>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-img">
+                        <img src="E:\kursac\6.jpg" alt="Смирнов Дмитрий Олегович" style="width: 100%; height: 150px; object-fit: cover; border-radius: 20px 20px 0 0;">
+                    </div>
+                    <h3>Смирнов Дмитрий Олегович</h3>
+                    <div class="doctor-spec">Хирург-имплантолог</div>
+                    <div class="doctor-exp">Стаж 10 лет</div>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-img">
+                        <img src="E:\kursac\4.jpg" alt="Козлова Елена Викторовна" style="width: 100%; height: 150px; object-fit: cover; border-radius: 20px 20px 0 0;">
+                    </div>
+                    <h3>Козлова Елена Викторовна</h3>
+                    <div class="doctor-spec">Ортодонт</div>
+                    <div class="doctor-exp">Стаж 9 лет</div>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-img">
+                        <img src="E:\kursac\5.jpg" alt="Морозов Андрей Игоревич" style="width: 100%; height: 150px; object-fit: cover; border-radius: 20px 20px 0 0;">
+                    </div>
+                    <h3>Морозов Андрей Игоревич</h3>
+                    <div class="doctor-spec">Ортопед</div>
+                    <div class="doctor-exp">Стаж 11 лет</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section id="reviews">
+        <div class="container">
+            <h2 class="section-title">Отзывы пациентов</h2>
+            <div class="reviews-grid">
+                <div class="review-card"><div class="review-text">«Отличная клиника! Лечила кариес, всё прошло безболезненно. Врач очень внимательная, спасибо!»</div><div class="review-author">— Екатерина, 32 года</div></div>
+                <div class="review-card"><div class="review-text">«Ставил имплант, результатом доволен. Вежливый персонал, чисто, современное оборудование. Рекомендую.»</div><div class="review-author">— Максим, 45 лет</div></div>
+                <div class="review-card"><div class="review-text">«Ребёнку исправляли прикус пластинкой. Врач всё объясняет, дочка ходит с удовольствием. Спасибо команде УлыбкаПро!»</div><div class="review-author">— Ольга, 30 лет</div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты + Карта -->
+    <section id="contacts" style="background-color: #eef3ea;">
+        <div class="container">
+            <h2 class="section-title">Контакты и как проехать</h2>
+            <div class="contacts-grid">
+                <div class="contact-info">
+                    <p><i class="fas fa-map-marker-alt"></i> <strong>Адрес:</strong> Нижний Новгород, ул. Пушкина, д. 10</p>
+                    <p><i class="fas fa-phone-alt"></i> <strong>Телефон:</strong> +7 (831) 416-78-90</p>
+                    <p><i class="far fa-clock"></i> <strong>Режим работы:</strong> Пн-Сб 09:00 – 21:00, Вс – выходной</p>
+                    <p><i class="fas fa-envelope"></i> <strong>Email:</strong> nikitagudin@mail.ru</p>
+                    <p><i class="fab fa-whatsapp"></i> <strong>WhatsApp:</strong> +7 (920) 010-20-30</p>
+                </div>
+                <div class="map-container">
+                    <iframe 
+                        src="https://yandex.ru/map-widget/v1/?ll=44.0217,56.3289&z=17&pt=44.0217,56.3289&what=map&mode=search&sll=44.0217,56.3289&text=Нижний%20Новгород%20Пушкина%2010" 
+                        width="100%" 
+                        height="280" 
+                        style="border: 0; border-radius: 20px;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>© 2026 Стоматологическая клиника "УлыбкаПро" | Нижний Новгород, ул. Пушкина, 10</p>
+        <p style="font-size: 0.8rem;">Политика обработки персональных данных | Все права защищены</p>
+    </div>
+</footer>
+
+<!-- Модальное окно записи -->
+<div id="appointmentModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Запись на приём</h3>
+        <form id="appointmentForm">
+            <label>Ваше имя *</label>
+            <input type="text" id="name" required placeholder="Иван Иванов">
+
+            <label>Телефон *</label>
+            <input type="tel" id="phone" required placeholder="+7 (___) ___-__-__">
+
+            <label>Выберите услугу</label>
+            <select id="serviceSelect">
+                <option value="Лечение кариеса">Лечение кариеса</option>
+                <option value="Профессиональная чистка">Профессиональная чистка</option>
+                <option value="Имплантация">Имплантация</option>
+                <option value="Отбеливание">Отбеливание</option>
+                <option value="Коронки и виниры">Коронки и виниры</option>
+                <option value="Ортодонтия">Ортодонтия</option>
+            </select>
+
+            <label>Выберите врача</label>
+            <select id="doctorSelect">
+                <option value="Иванова Анна Петровна">Иванова А.П. (терапевт)</option>
+                <option value="Смирнов Дмитрий Олегович">Смирнов Д.О. (хирург)</option>
+                <option value="Козлова Елена Викторовна">Козлова Е.В. (ортодонт)</option>
+                <option value="Морозов Андрей Игоревич">Морозов А.И. (ортопед)</option>
+            </select>
+
+            <label>Предпочитаемая дата</label>
+            <input type="date" id="date" required>
+
+            <button type="submit" class="btn-primary">Отправить заявку</button>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
